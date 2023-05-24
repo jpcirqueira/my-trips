@@ -1,13 +1,8 @@
-import styles from './page.module.css'
+'use client';
+import Map from "./components/map";
 
 export default function Home() {
   return (
-    <main>
-      <div>
-        <p>
-          Teste&nbsp;
-        </p>
-      </div>
-    </main>
+    <Map />
   )
 }
