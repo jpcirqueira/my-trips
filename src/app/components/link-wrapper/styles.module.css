@@ -1,0 +1,16 @@
+.container {
+    position: fixed;
+    z-index: 1100;
+    top: var(--medium);
+    right: var(--medium);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.container:hover svg {
+    color: black;
+}
+
+.container svg {
+    transition: color 0.3s ease-in-out;
+}
